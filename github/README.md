@@ -1,2 +1,1 @@
-
-a historia de cada final fantasy Vii
+# final-fantasy-7
