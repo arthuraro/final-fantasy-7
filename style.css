@@ -1,9 +1,9 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "outifit", sans-serif;
+  font-size: 50px;
 }
 
 :root {
@@ -22,18 +22,17 @@ body {
 }
 
 header {
-  background-image: url(./assets.image/titulo.bg) ;
+  background-image: url(./assets.image/titulo.bg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
-  padding: 45px;
+  padding: 60px
 }
 
-
 nav {
-  background-color: #565656;
+  background-color: #555;
   padding: 10px;
 }
 
@@ -41,17 +40,19 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
 }
 
 nav a {
   text-decoration: none;
   color: white;
-  border: #333;
+  display: block;
+  padding: 15px;
 }
 
 main {
@@ -59,32 +60,18 @@ main {
 }
 
 section {
-  background-color: grey;
+  text-align: center;
   margin-bottom: 20px;
   padding: 20px;
-  text-align: center;
 }
-img{
-  max-width: 20%;
+
+img {
+  max-width: 15%;
   height: auto;
-  border-radius: 25px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
-  
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-
 
 footer {
   background-color: #333;

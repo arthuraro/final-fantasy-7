@@ -28,16 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     setActiveLink(event.target)
   }
 
-  function nextStory() {
-    const currentSection = document.querySelector("section:target")
-    const nextSection = currentSection.nextElementSibling
-
-    if (nextSection) {
-      location.href = "#" + nextSection.id
-      setActiveLink(menuLinks[nextSection.dataset.index - 1])
-    }
-  }
-
   menuLinks.forEach((link, index) => {
     link.addEventListener("click", navigateToSection)
     link.dataset.index = index + 1
