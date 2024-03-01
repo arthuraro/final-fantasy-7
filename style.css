@@ -3,21 +3,26 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "outifit", sans-serif;
-  font-size: 50px;
 }
 
 :root {
   --text-color: white;
-  --bg-url: url(./assets.image/mobile.bg.jpg);
+  --mobile-bg-url: url(./assets.image/mobile.bg.jpg);
+  --desktop-bg-url: url(./assets.image/desktop.bg.jpg);
 }
 
 body {
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--mobile-bg-url) no-repeat top center/cover;
+  font-size: 20px; /* Ajuste o tamanho da fonte para melhor leitura em dispositivos móveis */
+  color: white;
 }
 
 @media (min-width: 700px) {
-  :root {
-    --bg-url: url(./assets.image/desktop.bg.jpg);
+  body {
+    background: var(--desktop-bg-url) no-repeat top center/cover;
+  }
+  main {
+    font-size: 35px; /*tamanho da fonte para desktop*/
   }
 }
 
@@ -28,11 +33,12 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 60px
+  padding: 40px 20px; /* Ajuste o preenchimento para melhor espaçamento */
+  font-size: 24px;
 }
 
 nav {
-  background-color: #555;
+  background-color: #333;
   padding: 10px;
 }
 
@@ -66,11 +72,21 @@ section {
 }
 
 img {
-  max-width: 15%;
+  max-width: 20%; /* Torne as imagens responsivas */
   height: auto;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+  padding: 30px;
+}
+
+@media (max-width: 699px) {
+  img {
+    max-width: 100%; /*tamanho da imagem para mobile*/
+  }
+  footer {
+    font-size: 14px; /*tamanho para mobile*/
+  }
 }
 
 footer {
@@ -79,6 +95,6 @@ footer {
   text-align: center;
   padding: 10px;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
 }
