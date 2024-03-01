@@ -31,6 +31,7 @@ header {
   padding: 45px;
 }
 
+
 nav {
   background-color: #565656;
   padding: 10px;
@@ -50,6 +51,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+  border: #333;
 }
 
 main {
@@ -60,7 +62,14 @@ section {
   background-color: grey;
   margin-bottom: 20px;
   padding: 20px;
+  text-align: center;
 }
+img{
+  max-width: 20%;
+  height: auto;
+  border-radius: 25px;
+}
+  
 
 button {
   background-color: #4CAF50;
