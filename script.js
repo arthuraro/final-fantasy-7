@@ -48,4 +48,5 @@ document.addEventListener("DOMContentLoaded", function () {
   // Show the initial section
   showSection("story1")
   setActiveLink(menuLinks[0])
+
 })
