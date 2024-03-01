@@ -22,14 +22,17 @@ body {
 }
 
 header {
-  background-image: url(./assets.image/titulo.bg);
+  background-image: url(./assets.image/titulo.bg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
   text-align: center;
   padding: 45px;
 }
 
 nav {
-  background-color: #555;
+  background-color: #565656;
   padding: 10px;
 }
 
@@ -54,7 +57,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: grey;
   margin-bottom: 20px;
   padding: 20px;
 }
