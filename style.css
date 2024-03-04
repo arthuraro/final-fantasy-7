@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "outifit", sans-serif;
+  font-family: "cinzel", sans-serif;
 }
 
 :root {
@@ -21,8 +21,9 @@ body {
   body {
     background: var(--desktop-bg-url) no-repeat top center/cover;
   }
+
   main {
-    font-size: 35px; /*tamanho da fonte para desktop*/
+    font-size: 30px; /*tamanho da fonte para desktop*/
   }
 }
 
@@ -38,7 +39,7 @@ header {
 }
 
 nav {
-  background-color: #333;
+  background-color:#333;
   padding: 10px;
 }
 
@@ -87,6 +88,16 @@ img {
   footer {
     font-size: 14px; /*tamanho para mobile*/
   }
+}
+
+#characters {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
 }
 
 footer {
