@@ -62,6 +62,17 @@ nav a {
   padding: 15px;
 }
 
+/* Adicione esta regra para criar a transição */
+nav a {
+  transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Adicione esta regra para alterar a cor ao passar o mouse */
+nav a:hover {
+  color:yellowgreen; /* Cor desejada ao passar o mouse */
+  transform: scale(1.1);
+}
+
 main {
   padding: 20px;
 }

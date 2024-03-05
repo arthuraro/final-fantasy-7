@@ -89,5 +89,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Repita o padrão para outras histórias, conforme necessário.
 })
-
-
