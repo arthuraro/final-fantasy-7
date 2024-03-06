@@ -95,7 +95,7 @@ img {
 
 @media (max-width: 699px) {
   img {
-    max-width: 100%; /*tamanho da imagem para mobile*/
+    max-width: 90%; /*tamanho da imagem para mobile*/
   }
   footer {
     font-size: 14px; /*tamanho para mobile*/
