@@ -5,23 +5,15 @@
   font-family: "cinzel", sans-serif;
 }
 
-:root {
-  --text-color: white;
-  --mobile-bg-url: url(./assets.image/mobile.bg.jpg);
-  --desktop-bg-url: url(./assets.image/desktop.bg.jpg);
-}
 
 body {
-  background: var(--mobile-bg-url) no-repeat top center/cover;
+  background: gray center/cover;
   font-size: 20px; /* Ajuste o tamanho da fonte para melhor leitura em dispositivos móveis */
   color: white;
 }
 
 @media (min-width: 700px) {
-  body {
-    background: var(--desktop-bg-url) no-repeat top center/cover;
-  }
-
+  
   main {
     font-size: 30px; /*tamanho da fonte para desktop*/
   }
@@ -81,6 +73,7 @@ section {
   text-align: center;
   margin-bottom: 20px;
   padding: 20px;
+  color: black;
 }
 
 img {
