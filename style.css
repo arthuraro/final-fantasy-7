@@ -12,7 +12,7 @@ body {
   color: white;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 699px) {
   
   main {
     font-size: 30px; /*tamanho da fonte para desktop*/
@@ -25,9 +25,8 @@ header {
   background-size: cover;
   background-position: center;
   color: white;
-  text-align: center;
-  padding: 40px 20px; /* Ajuste o preenchimento para melhor espaçamento */
-  font-size: 24px;
+  text-align:center;
+  padding: 50px 30px;
 }
 
 nav {
