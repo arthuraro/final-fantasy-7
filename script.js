@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
     link.dataset.index = index + 1
   })
 
-  document.getElementById("nextButton").addEventListener("click", nextStory)
+   document.addEventListener("click", nextStory);
+
 
   // Show the initial section
   showSection("story1")
