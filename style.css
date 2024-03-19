@@ -69,10 +69,14 @@ main {
 }
 
 section {
-  text-align: center;
+
   margin-bottom: 20px;
   padding: 20px;
   color: black;
+}
+
+section h2{
+  text-align: center;
 }
 
 img {
