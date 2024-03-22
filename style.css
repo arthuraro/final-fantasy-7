@@ -5,7 +5,6 @@
   font-family: "cinzel", sans-serif;
 }
 
-
 body {
   background: gray center/cover;
   font-size: 20px; /* Ajuste o tamanho da fonte para melhor leitura em dispositivos móveis */
@@ -13,7 +12,6 @@ body {
 }
 
 @media (min-width: 699px) {
-  
   main {
     font-size: 30px; /*tamanho da fonte para desktop*/
   }
@@ -25,12 +23,12 @@ header {
   background-size: cover;
   background-position: center;
   color: white;
-  text-align:center;
+  text-align: center;
   padding: 50px 30px;
 }
 
 nav {
-  background-color:#333;
+  background-color: #333;
   padding: 10px;
 }
 
@@ -60,7 +58,7 @@ nav a {
 
 /* Adicione esta regra para alterar a cor ao passar o mouse */
 nav a:hover {
-  color:yellowgreen; /* Cor desejada ao passar o mouse */
+  color: yellowgreen; /* Cor desejada ao passar o mouse */
   transform: scale(1.1);
 }
 
@@ -69,13 +67,18 @@ main {
 }
 
 section {
-
   margin-bottom: 20px;
   padding: 20px;
   color: black;
 }
 
-section h2{
+     main {
+      flex: 1; /* O conteúdo principal ocupa todo o espaço restante */
+      margin-left: 0; /* Deixa espaço para o menu lateral */
+      transition: margin-left 0.3s ease; /* Animação de transição */
+    }
+
+section h2 {
   text-align: center;
 }
 

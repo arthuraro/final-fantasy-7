@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section")
-  const menuLinks = document.querySelectorAll("#menu a")
+  const menuLinks = document.querySelectorAll("#menu-superior a")
 
   function showSection(sectionId) {
     sections.forEach((section) => {
@@ -32,14 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
     link.addEventListener("click", navigateToSection)
     link.dataset.index = index + 1
   })
-
-   document.addEventListener("click", nextStory);
-
-
-  // Show the initial section
-  showSection("story1")
-  setActiveLink(menuLinks[0])
-
 })
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -48,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   personagensLink.addEventListener("click", function (event) {
     event.preventDefault()
-    charactersSection.classList.toggle("hidden");
+    charactersSection.classList.toggle("hidden")
   })
 })
 
@@ -86,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault()
     story4Complete.classList.toggle("hidden")
   })
-
 
   // Repita o padrão para outras histórias, conforme necessário.
 })
