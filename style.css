@@ -72,13 +72,11 @@ section {
   color: black;
 }
 
-     main {
-      flex: 1; /* O conteúdo principal ocupa todo o espaço restante */
-      margin-left: 0; /* Deixa espaço para o menu lateral */
-      transition: margin-left 0.3s ease; /* Animação de transição */
-    }
-
 section h2 {
+  text-align: center;
+}
+
+section h1 {
   text-align: center;
 }
 
@@ -96,7 +94,7 @@ img {
   img {
     max-width: 90%; /*tamanho da imagem para mobile*/
   }
-  footer {
+  #copyright {
     font-size: 14px; /*tamanho para mobile*/
   }
 }
@@ -111,12 +109,18 @@ img {
   display: none;
 }
 
-footer {
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 5px;
 }
