@@ -109,6 +109,42 @@ img {
   display: none;
 }
 
+/* Definindo a animação de entrada */
+@keyframes slideIn {
+  from {
+    transform: translatex(-100%);
+  }
+  to {
+    transform: translatex(0);
+  }
+}
+
+/* Definindo a animação de saída */
+@keyframes slideOut {
+  from {
+    transform: translatex(0);
+  }
+  to {
+    transform: translatex(-100%);
+  }
+}
+
+/* Aplicando as animações à seção */
+section {
+  display: none;
+  opacity: 0;
+}
+
+section.active {
+  display: block;
+  opacity: 1;
+  animation: slideIn 0.5s ease;
+}
+
+section:not(.active) {
+  animation: slideOut 0.5s ease;
+}
+
 body {
   position: relative;
   min-height: 100vh;
