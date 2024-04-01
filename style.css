@@ -105,10 +105,6 @@ img {
   padding: 20px;
 }
 
-.hidden {
-  display: none;
-}
-
 /* Definindo a animação de entrada */
 @keyframes slideIn {
   from {
