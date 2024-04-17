@@ -24,3 +24,5 @@ este é um projeto pessoal e mais uma ideia para avançar meus estudos na progra
 
 - [Acesse o projeto finalizado, online()]
 
+ &copy; [2024] Square Enix Holdings Co., Ltd. Todos os direitos reservados.
+
