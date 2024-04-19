@@ -36,13 +36,3 @@ document.addEventListener("DOMContentLoaded", function () {
   showSection("home")
   setActiveLink(menuLinks[0])
 })
-
-document.addEventListener("DOMContentLoaded", function () {
-  const charactersSection = document.getElementById("characters")
-  const personagensLink = document.querySelector('a[href="#characters"]')
-
-  personagensLink.addEventListener("click", function (event) {
-    event.preventDefault()
-    charactersSection.classList.toggle("hidden")
-  })
-})
